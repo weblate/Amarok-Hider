@@ -17,10 +17,10 @@
     <string name="current_mode">目前模式 : %s</string>
     <string name="more_settings">更多設定</string>
     <string name="switch_file_hider">切換文件隱藏模式</string>
-    <string name="hidden_toast">隱藏了。咕咕咕~！</string>
+    <string name="hidden_toast">隱藏了</string>
     <string name="show_debug_info">偵錯資訊</string>
     <string name="debug_info_description">顯示有助於解決問題的資訊。</string>
-    <string name="unhidden_toast">注意。未隱藏。</string>
+    <string name="unhidden_toast">未隱藏</string>
     <string name="add_hide_files">選擇隱藏資料夾</string>
     <string name="not_local_storage_description">請確認您選擇的檔案位於本機儲存，且不是虛擬資料夾。</string>
     <string name="help">幫助</string>
@@ -43,7 +43,7 @@
     <string name="shizuku_pre_v11">Shizuku 版本過低: 請升級您的 Shizuku 到至少 v11。</string>
     <string name="shizuku_not_working">Shizuku 服務不可用。請在您的設備上安裝 Shizuku 或 Sui。</string>
     <string name="shizuku_hidden_api_error">隱藏應用程式失敗: 無法取得 IPackageManager 介面。</string>
-    <string name="apphider_not_ava_title">應用隱藏器無效</string>
+    <string name="apphider_not_ava_title">服務不可用</string>
     <string name="dsm_permission_denied">DSM: 權限請求被拒絕</string>
     <string name="apphider_none">停用</string>
     <string name="apphider_none_description">停用應用程式隱藏功能。</string>
@@ -97,7 +97,7 @@
     <string name="dhizuku_pre_v5">Dhizuku: 版本过低。请将 Dhizuku 升级到 v5.0 以上。</string>
     <string name="dhizuku_not_init">Dhizuku: 服務無效。請確定您的設備已安裝 Dhizuku 並成功啟用。</string>
     <string name="apphider_dhizuku">Dhizuku 模式</string>
-    <string name="apphider_dhizuku_description">[實驗性功能] 透過 Dhizuku API 隱藏應用。 \nDhizuku 透過共享裝置管理員權限，賦予無 Root 裝置應用隱藏的能力。需要安裝並啟動 Dhizuku。</string>
+    <string name="apphider_dhizuku_description">透過 Dhizuku API 隱藏應用。 \nDhizuku 透過共享裝置管理員權限，賦予無 Root 裝置應用隱藏的能力。需要安裝並啟動 Dhizuku。</string>
     <string name="force_unhide">強制取消隱藏</string>
     <string name="force_unhide_description">嘗試恢復所有隱藏的檔案與應用程式。僅在出現問題時使用。</string>
     <string name="performing_force_unhide">正在嘗試取消隱藏。請稍後。</string>
@@ -127,7 +127,7 @@
 \n
 \n<u>免責聲明：切勿將 Amaork 用於重要文件或應用的隱藏。您使用 Amaork 所導致的一切損失和後果均由您自行承擔。 </u></string>
     <string name="warning">警告</string>
-    <string name="chmod_samsung_warning"><b><font fgcolor="#ff0000">有報告指出三星用戶使用此模式可能導致裝置無法啟動。 </font> 詳見 GitHub #105。請謹慎使用。 </b></string>
+    <string name="chmod_samsung_warning">有報告指出三星用戶使用此模式可能導致裝置無法啟動。 詳見 GitHub #105。請謹慎使用。</string>
     <string name="auto_hide">自動隱藏</string>
     <string name="auto_hide_description">关闭屏幕后自动隐藏。</string>
     <string name="auto_hide_delay">自動隱藏延遲</string>
@@ -198,4 +198,22 @@
     <string name="disable_security_when_unhidden_description">在未隐藏时禁用Amarok伪装和Amarok锁。</string>
     <string name="disable_only_with_xhide">仅禁用软件</string>
     <string name="invert_tile_color">反轉磁鐵顏色</string>
+    <string name="confirm_with_countdown">确定 （%1$d秒）</string>
+    <string name="update_channel">更新通道</string>
+    <string name="update_channel_release">穩定版</string>
+    <string name="update_channel_beta">Beta 預發布版</string>
+    <string name="update_available_title">有可用更新</string>
+    <string name="update_available_message">新版本 %s 現在可以更新。</string>
+    <string name="view_on_github">在 Github 上查看</string>
+    <string name="checking_update">正在檢查更新…</string>
+    <string name="update_check_failed">檢查更新失敗</string>
+    <string name="panic_button_color">緊急按鈕顏色</string>
+    <string name="panic_button_color_description">自定義緊急按鈕顏色。</string>
+    <string name="dark_theme">深色主題</string>
+    <string name="dark_theme_description">選擇應用程式主題</string>
+    <string name="dark_theme_follow_system">跟隨系統</string>
+    <string name="dark_theme_light">淺色</string>
+    <string name="dark_theme_dark">深色</string>
+    <string name="hide_amarok_icon">隱藏圖示</string>
+    <string name="hide_amarok_icon_description">在啟動器中隱藏 Amarok。輸入 *#*#262765#*#* 打開 Amarok。</string>
 </resources>
